@@ -1,0 +1,22 @@
+{
+  "name": "constructor-hangman",
+  "version": "1.0.0",
+  "description": "hangman game using node, played in command line",
+  "main": "game.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrona806/Constructor-Hangman.git"
+  },
+  "keywords": [
+    "constructor"
+  ],
+  "author": "Sharona Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msrona806/Constructor-Hangman/issues"
+  },
+  "homepage": "https://github.com/msrona806/Constructor-Hangman#readme"
+}
