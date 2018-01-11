@@ -1,22 +1,25 @@
-// import { randomBytes } from "crypto";
-
 // required packages
 var fs = require("fs");
-var inquire = require("inquirer");
+var inquirer = require("inquirer");
 // var letters = require("../letters.js");
 var words = require ("./words.js")
 // var word = require ("./word.js")
 
 // VARIABLES
+var ltrGuessed = [];
 
-// random word to be guessed
-var wordBank = words; 
-var randomWord = Math.floor(Math.random() * words.length);
-var currentWord = ""; // holds random word picked
-
-console.log(currentWord = wordBank[randomWord]);
 
 // display letters that have been guessed
+inquirer.prompt([{
+  name: "letter",
+  type: "input",
+  message: "Choose a letter: "}])
+  letter.push(ltrGuessed);
+
+for (var i = 0; i < currentWord.length; i++) {
+
+}
+
 
 // makes letters lowercase
 // .toLowerCase();
