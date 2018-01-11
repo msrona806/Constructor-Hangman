@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/msrona806/Constructor-Hangman/issues"
   },
-  "homepage": "https://github.com/msrona806/Constructor-Hangman#readme"
+  "homepage": "https://github.com/msrona806/Constructor-Hangman#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^5.0.0"
+  }
 }

@@ -1,2 +1,13 @@
-Words to be guessed:
-cancun, clearwater, maldives, bahamas, canary islands, belize, key west, saint thomas, bora bora, waikiki, south beach, seychelles, cook islands, barbados, grenada, trinidad and tobago
+// Required 
+var letter = require("letters.js");
+
+// Constructor to create an object to hold the current word that is being guessed and contain all of the logic to check the letters guessed versus the random word selected
+
+// function to determine if letter guessed is in the current word
+
+// LOGIC
+// dashes
+// random words
+
+// export file
+module.exports = word;
