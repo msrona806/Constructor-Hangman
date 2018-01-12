@@ -1,22 +1,18 @@
 // required packages
 var fs = require("fs");
 var inquirer = require("inquirer");
-// var letters = require("../letters.js");
-var words = require ("./words.js")
 var word = require ("./word.js")
 
 // VARIABLES
 var ltrGuessed = [];
 
+// welcome message
+
+// prompt to get user to enter a letter
+// *use inquirer 
 
 // display letters that have been guessed
 
-
-
-
-
-// makes letters lowercase
-// .toLowerCase();
 // display score
 
 // counter to display remaining guesses

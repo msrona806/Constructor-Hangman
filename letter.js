@@ -4,21 +4,25 @@
 var lettersGuessed = [];
 
 var Letter = function(letter) {
-  this.character = letter.toLowerCase();
+  this.character = letter.toLowerCase(); // make sure all the letters are lower case
   
+  // compare letter guessed to letter in word
   this.compareCharacter = function(aLetter) {
     if (aLetter.character === this.character) {
       console.log(aLetter.character);
     }
 
     else { 
-      console.log('_');
+      console.log('_');  // display a _ placeholder for letters in the word
     }
   }
 }
-// compare letter guessed to current word
-var testLetter1 = new Letter('R');
-var testLetter2 = new Letter('T');
+
+// code to push letters into letters guessed array
+
+// test letters to see if code works
+var testLetter1 = new Letter('F');
+var testLetter2 = new Letter('R');
 testLetter1.compareCharacter(testLetter2);
 console.log(testLetter1.character + testLetter2.character);
 
@@ -28,22 +32,4 @@ var guessRmn = 0;
 // logic to determine if win or lose
 
 // export file
-module.exports = Letter;
-
-
-// var Letter = function(char) {
-// 	this.charac = char.toLowerCase();
-// 	this.appear = false;
-// 	this.letterRender = function() {
-// 		if (this.appear) {
-// 			return this.charac;
-// 		} else if (this.charac === " ") {
-// 				this.appear = true;
-// 				return this.charac;
-// 		} else {
-// 				return "_ ";
-// 		}
-// 	};
-// };
-
 exports.Letter = Letter;
