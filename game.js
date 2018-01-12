@@ -3,22 +3,16 @@ var fs = require("fs");
 var inquirer = require("inquirer");
 // var letters = require("../letters.js");
 var words = require ("./words.js")
-// var word = require ("./word.js")
+var word = require ("./word.js")
 
 // VARIABLES
 var ltrGuessed = [];
 
 
 // display letters that have been guessed
-inquirer.prompt([{
-  name: "letter",
-  type: "input",
-  message: "Choose a letter: "}])
-  letter.push(ltrGuessed);
 
-for (var i = 0; i < currentWord.length; i++) {
 
-}
+
 
 
 // makes letters lowercase
